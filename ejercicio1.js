@@ -10,7 +10,7 @@ for (i=0; i<=largest;i++){
         var largest=odds[i];
     }
 }
-console.log()
+
+
 console.log("The odd numbers are: " + odds)
 console.log("The highest odd number is: " + largest);
-console.log()

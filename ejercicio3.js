@@ -19,3 +19,7 @@ for(i = 0; i < numeros.length; i++){
         console.log(numeros [i], palos [j])
     }
 }
+
+function getRandomArbitrary(numeros) {
+    numeros.splice(Math.random() * (14 - 1) + 1)
+}

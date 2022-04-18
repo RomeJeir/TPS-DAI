@@ -12,5 +12,6 @@ for (i=0; i<=largest;i++){
 }
 
 
-console.log("The odd numbers are: " + odds)
+console.log("The odd numbers are: " + odds);
+
 console.log("The highest odd number is: " + largest);

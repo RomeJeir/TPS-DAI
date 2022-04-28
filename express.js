@@ -91,7 +91,7 @@ app.get("/sacar_numero", (req,res) => {
     num_bing_rand = bin_rand();
     for(let i = 0;i<bingo_max;i++){
         if(cartones[i].nums_bingo == num_bing_rand){
-            
+            cartones[i].nums_bingo.remove(num_bing_rand)
         }
     }
     res.send()

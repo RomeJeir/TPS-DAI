@@ -29,7 +29,10 @@ git push origin main
 
 Si se necesita configurar el token de acceso para hacer *push*
 ```
-git remote set-url origin https://oauth2:TOKEN@github.com/jmguillen76/ortrepo01
+git remote set-url origin https://oauth2:TOKEN@github.com/RomeJeir/GestionARG
+```
+```
+git remote set-url origin https://oauth2:TOKEN@github.com/RomeJeir/TP-DAI
 ```
 
 ### Ramas
